@@ -1,0 +1,14 @@
+openai==0.28.1   # Note: openai==1.0.0 made API changes that causes an error when loading older Completions objects such as my pickle files
+
+numpy
+scipy
+pandas
+matplotlib
+seaborn
+
+pomegranate>=1.0.0
+levenshtein
+
+pygraphviz     # this solved an issue I had installing this to py3.11: https://github.com/pygraphviz/pygraphviz/issues/11#issuecomment-1770483759
+networkx
+
